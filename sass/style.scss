@@ -25,16 +25,28 @@ a {
   overflow: auto;
 }
 
-ul.nav, .intro-info-wrap span,
+section {
+	padding: 2% 10%;
+}
+
+h1, ul.nav, 
+.intro-info-wrap span,
 .intro-info-wrap h1,
 span.services {
 	text-transform: uppercase;
 }
 
-section {
-	padding: 2% 10%;
+.sec-title {
+	margin: 0 auto;
+	text-align: center;
+	padding: 4% 0;
+	.underline {
+		width: 3%;
+	    height: 1px;
+	    background: black;
+	    margin: 0 auto;
+	}
 }
-
 
 // MENU STYLES
 section.menu {
@@ -115,3 +127,18 @@ section.services {
 		float: left;
 		text-align: center;
 	}
+// END OF SERVICES STYLES 
+
+// TRAINER STYLES
+section.trainers {
+
+	h1 {
+		color: black;
+	}
+}
+
+span.highlight {
+	color: $red;
+}
+
+
