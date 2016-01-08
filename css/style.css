@@ -26,6 +26,10 @@ span.services {
   margin: 0 auto;
   text-align: center;
   padding: 4% 0; }
+  .sec-title h1 {
+    color: black; }
+  .sec-title span.highlight {
+    color: #FE6467; }
   .sec-title .underline {
     width: 3%;
     height: 1px;
@@ -88,8 +92,15 @@ section.services {
   float: left;
   text-align: center; }
 
-section.trainers h1 {
-  color: black; }
+section.trainers .fourth {
+  padding: 0;
+  margin: 0; }
+  section.trainers .fourth img {
+    width: 100%;
+    display: inline-flex; }
 
-span.highlight {
-  color: #FE6467; }
+section.trainers .grid {
+  margin: 0; }
+
+section.trainers .desk--one-quarter {
+  width: 24%; }

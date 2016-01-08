@@ -40,6 +40,13 @@ span.services {
 	margin: 0 auto;
 	text-align: center;
 	padding: 4% 0;
+
+	h1 {
+		color: black;
+	}
+	span.highlight {
+		color: $red;
+	}
 	.underline {
 		width: 3%;
 	    height: 1px;
@@ -132,13 +139,25 @@ section.services {
 // TRAINER STYLES
 section.trainers {
 
-	h1 {
-		color: black;
+
+	.fourth {
+		padding: 0;
+		margin: 0;
+
+			img {
+				width: 100%;
+				display: inline-flex;
+			}
+	}
+	.grid {
+		margin: 0;
+	}
+	.desk--one-quarter {
+		width: 24%;
 	}
 }
 
-span.highlight {
-	color: $red;
-}
+
+
 
 
