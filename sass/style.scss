@@ -20,6 +20,10 @@ a {
 
 }
 
+.clearfix {
+  overflow: auto;
+}
+
 ul.nav, .intro-info-wrap span,
 .intro-info-wrap h1 {
 	text-transform: uppercase;
@@ -74,5 +78,16 @@ section.intro {
 	width: 100%;
 	margin-bottom: -25%;
 }
+// END OF INTRO STYLES
 
+// SERVICES STYLES
+section.services {
+	background: $bg-light-grey;
+	margin-top: 3%;
+	color: $light-grey;
+}
 
+.balance, .strong, .challenge {
+		float: left;
+		background: $bg-light-grey;
+	}
