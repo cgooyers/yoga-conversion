@@ -30,11 +30,12 @@ span.services {
     color: black; }
   .sec-title span.highlight {
     color: #FE6467; }
-  .sec-title .underline {
-    width: 3%;
-    height: 1px;
-    background: black;
-    margin: 0 auto; }
+
+.underline {
+  width: 3%;
+  height: 1px;
+  background: black;
+  margin: 0 auto; }
 
 section.menu {
   background: #2A2A2A; }
@@ -104,3 +105,21 @@ section.trainers .grid {
 
 section.trainers .desk--one-quarter {
   width: 24%; }
+
+section.trainers .pic-info {
+  background: #F4F4F4;
+  color: #8C8C8C;
+  padding-bottom: 5%; }
+  section.trainers .pic-info h2 {
+    color: black;
+    padding: 5%; }
+  section.trainers .pic-info h2, section.trainers .pic-info h3 {
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0; }
+  section.trainers .pic-info h3 {
+    font-size: 12px;
+    padding-bottom: 5%; }
+  section.trainers .pic-info .underline {
+    width: 10%; }

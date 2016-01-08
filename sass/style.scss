@@ -47,12 +47,14 @@ span.services {
 	span.highlight {
 		color: $red;
 	}
-	.underline {
-		width: 3%;
-	    height: 1px;
-	    background: black;
-	    margin: 0 auto;
-	}
+	
+}
+
+.underline {
+	width: 3%;
+    height: 1px;
+    background: black;
+    margin: 0 auto;
 }
 
 // MENU STYLES
@@ -155,8 +157,32 @@ section.trainers {
 	.desk--one-quarter {
 		width: 24%;
 	}
-}
+	.pic-info {
+		background: $bg-light-grey;
+		color: $light-grey;
+		padding-bottom: 5%;
 
+			h2 {
+				color: black;
+				padding: 5%;
+			}
+
+			h2, h3 {
+				font-weight: normal;
+				text-transform: capitalize;
+				text-align: center;
+				margin: 0;
+			}
+			h3 {
+				font-size: 12px;
+				padding-bottom: 5%;
+			}
+			.underline {
+				width: 10%;
+			}
+
+	}// end of .fourth
+}// end of section.trainers
 
 
 
