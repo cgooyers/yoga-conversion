@@ -1,15 +1,24 @@
 body {
   margin: 0;
   font-family: 'Lato', 'Helvetica', sans-serif;
-  font-size: 12px; }
+  font-size: 12px;
+  color: white;
+  line-height: 22px;
+  letter-spacing: 0.1rem; }
 
 a {
   text-decoration: none;
   color: white; }
 
-section.menu {
-  background: #2A2A2A;
+ul.nav, .intro-info-wrap span,
+.intro-info-wrap h1 {
+  text-transform: uppercase; }
+
+section {
   padding: 2% 10%; }
+
+section.menu {
+  background: #2A2A2A; }
   section.menu .menu-inner {
     margin: 0 auto;
     float: right; }
@@ -19,9 +28,24 @@ ul.nav {
   list-style: none;
   text-align: center;
   color: white;
-  margin: 0;
-  text-transform: uppercase; }
+  margin: 0; }
   ul.nav li {
     display: block;
     float: left;
     margin: 10px; }
+
+section.intro {
+  background: url("../assets/header-herobg.jpg") no-repeat;
+  font-size: 16px; }
+
+.intro-info-wrap {
+  float: right;
+  text-align: left;
+  padding-top: 15%; }
+
+.intro-info {
+  float: right; }
+
+#yoga-girl {
+  width: 100%;
+  margin-bottom: -25%; }
