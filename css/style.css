@@ -14,7 +14,8 @@ a {
   overflow: auto; }
 
 ul.nav, .intro-info-wrap span,
-.intro-info-wrap h1 {
+.intro-info-wrap h1,
+span.services {
   text-transform: uppercase; }
 
 section {
@@ -57,7 +58,21 @@ section.services {
   background: #F4F4F4;
   margin-top: 3%;
   color: #8C8C8C; }
+  section.services span.services {
+    color: black; }
+  section.services i {
+    display: inline; }
+  section.services i.icon {
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+    display: block; }
+  section.services ul {
+    padding: 0; }
+  section.services li {
+    list-style-type: none; }
+  section.services i, section.services span.read-more {
+    color: #FE6467; }
 
 .balance, .strong, .challenge {
   float: left;
-  background: #F4F4F4; }
+  text-align: center; }

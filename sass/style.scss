@@ -3,6 +3,7 @@ $bg-grey: #2A2A2A;
 $bg-light-grey: #F4F4F4;
 $med-grey: #F5F5F5;
 $light-grey: #8C8C8C;
+$red: #FE6467;
 
 // SET UP STYLES
 body {
@@ -25,7 +26,8 @@ a {
 }
 
 ul.nav, .intro-info-wrap span,
-.intro-info-wrap h1 {
+.intro-info-wrap h1,
+span.services {
 	text-transform: uppercase;
 }
 
@@ -85,9 +87,31 @@ section.services {
 	background: $bg-light-grey;
 	margin-top: 3%;
 	color: $light-grey;
+
+	span.services {
+		color: black;
+	}
+
+	i {
+		display: inline;
+	}
+	i.icon {
+		font-size: 1.5rem;
+		padding-bottom: 5px;
+		display: block;
+	}
+	ul {
+		padding: 0;
+	}
+	li {
+		list-style-type: none;
+	}
+	i, span.read-more {
+		color: $red;
+	}
 }
 
 .balance, .strong, .challenge {
 		float: left;
-		background: $bg-light-grey;
+		text-align: center;
 	}
