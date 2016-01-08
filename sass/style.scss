@@ -1,10 +1,44 @@
+// COLOUR VARIABLES
 $bg-grey: #2A2A2A;
 $bg-light-grey: #F4F4F4;
 $med-grey: #F5F5F5;
 $light-grey: #8C8C8C;
 
+// SET UP STYLES
+body {
+	margin: 0;
+	font-family: 'Lato', 'Helvetica', sans-serif;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+
+}
+
 
 // SECTION.MENU STYLES
 section.menu {
 	background: $bg-grey;
+	padding: 2% 10%;
+	.menu-inner {
+		margin: 0 auto;
+		float: right;
+	}
+}
+
+ul.nav {
+	float: right;
+    list-style: none;
+    text-align: center;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+	li {
+		display:block;
+	   float:left;
+	   margin: 10px;
+	}
+	
 }
