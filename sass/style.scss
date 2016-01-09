@@ -39,7 +39,7 @@ span.services {
 .sec-title {
 	margin: 0 auto;
 	text-align: center;
-	padding: 4% 0;
+	padding: 4% 0 6% 0;
 
 	h1 {
 		color: black;
@@ -155,7 +155,8 @@ section.trainers {
 		margin: 0;
 	}
 	.desk--one-quarter {
-		width: 24%;
+		width: 20%;
+		margin: 0 2%
 	}
 	.pic-info {
 		background: $bg-light-grey;
@@ -172,6 +173,7 @@ section.trainers {
 				text-transform: capitalize;
 				text-align: center;
 				margin: 0;
+				font-size: 100%;
 			}
 			h3 {
 				font-size: 12px;
