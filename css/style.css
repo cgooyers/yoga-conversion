@@ -204,7 +204,8 @@ section.blog .blog-details {
         color: black; }
 
 section.package {
-  background: #F4F4F4; }
+  background: #F4F4F4;
+  text-align: center; }
   section.package .choose-pkg {
     color: #464646;
     text-align: center;
@@ -213,3 +214,55 @@ section.package {
       font-weight: normal; }
   section.package .desk--one-quarter {
     width: 24%; }
+  section.package span {
+    display: block; }
+  section.package span.title {
+    font-size: 70%;
+    text-transform: capitalize; }
+  section.package span.member {
+    font-size: 90%;
+    text-transform: uppercase; }
+  section.package .member {
+    padding: 5% 0; }
+  section.package .chevron {
+    position: relative; }
+  section.package .price {
+    background: #F6F6F6;
+    color: #454545;
+    font-weight: bold;
+    font-size: 175%;
+    padding: 5% 0; }
+  section.package #student {
+    background: #8C8C8C; }
+  section.package #pro {
+    background: #464646; }
+  section.package #unlimited {
+    background: #FE6467; }
+  section.package #premium {
+    background: #454545; }
+  section.package .terms {
+    background: white; }
+    section.package .terms ul {
+      margin: 0;
+      padding: 0; }
+    section.package .terms li {
+      display: block;
+      border-bottom: 1px solid #F4F4F4;
+      color: #454545;
+      padding: 6% 8%; }
+  section.package button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    height: 40px;
+    color: white; }
+  section.package button#student {
+    background: #8C8C8C; }
+  section.package button#pro {
+    background: #464646; }
+  section.package button#unlimited {
+    background: #FE6467; }
+  section.package button#premium {
+    background: #454545; }

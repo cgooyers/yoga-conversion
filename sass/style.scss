@@ -5,6 +5,7 @@ $med-grey: #F5F5F5;
 $light-grey: #8C8C8C;
 $drk-grey: #464646;
 $drkest-grey: #454545;
+$white-grey: #F6F6F6;
 $red: #FE6467;
 
 // SET UP STYLES
@@ -306,6 +307,7 @@ section.blog {
 // PACKAGE STYLES
 section.package {
 	background: $bg-light-grey;
+	text-align: center;
 
 		.choose-pkg {
 			color: $drk-grey;
@@ -318,7 +320,115 @@ section.package {
 		}
 	.desk--one-quarter {
 		width: 24%;
+	}
+
+	span {
+		display: block;
+	}
+
+	span.title {
+		font-size: 70%;
+		text-transform: capitalize;
 	}	
+	span.member {
+		font-size: 90%;
+		text-transform: uppercase;
+	}
+
+	.member {
+		padding: 5% 0;
+
+	}
+	.chevron {
+		position: relative;
+	}
+
+	.price {
+		background: $white-grey;
+		color: $drkest-grey;
+		font-weight: bold;
+		font-size: 175%;
+		padding: 5% 0;
+	}
+
+	// .chevron {
+	//   position: relative;
+	//   text-align: center;
+	//   height: 60px;
+	//   width: 200px;
+	// }
+
+	// .chevron:before {
+	//   content: '';
+	//   background: $light-grey;
+	//   position: absolute;
+	//   top: 0;
+	//   left: 0; 
+	//   height: 100%;
+	//   width: 50%;
+	//   transform: skew(0deg, 6deg);
+	// }
+	// .chevron:after {
+	//   content: '';
+	//   position: absolute;
+	//   top: 0;
+	//   right: 0;
+	//   height: 100%;
+	//   width: 50%;
+	//   background: $light-grey;
+	//   transform: skew(0deg, -6deg);
+	// }
+	
+	#student {
+		background: $light-grey;
+	}
+	#pro {
+		background: $drk-grey;
+	}
+	#unlimited {
+		background: $red;
+	}
+	#premium {
+		background: $drkest-grey;
+	}
+
+	.terms {
+		background: white;
+
+		ul {
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			display: block;
+			border-bottom: 1px solid $bg-light-grey;
+			color: $drkest-grey;
+			padding: 6% 8%;
+		}
+	}
+	
+	button {
+		display: block;
+		width: 100%;
+		text-align: center;
+		border: none;
+		text-transform: uppercase;
+		height: 40px;
+		color: white;
+	}
+	button#student {
+		background: $light-grey;
+	}
+	button#pro {
+		background: $drk-grey;
+	}
+	button#unlimited {
+		background: $red;
+	}
+	button#premium {
+		background: $drkest-grey;
+	}
 
 }
 
