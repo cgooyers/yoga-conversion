@@ -222,6 +222,48 @@ section.quote {
 			}
 		}
 }
+// END OF QUOTE STYLES
 
+// BLOG STYLES
+.blog-wrap {
+
+		.desk--one-third {
+			width: 30.33%;
+		}
+
+		.blog {
+			padding: 0;
+			overflow: hidden;
+			margin: 1%;
+		}
+		
+		#first-pic,
+		#second-pic,
+		#third-pic {
+			position: relative;
+			height: 272px;
+		}
+
+		#first-pic {
+			background: url('../assets/blog-01.jpg') no-repeat center;
+
+		}
+
+		#second-pic {
+			background: url('../assets/blog-02.jpg') no-repeat center;
+		}
+
+		#third-pic {
+			background: url('../assets/blog-03.jpg') no-repeat center;
+		}
+
+		#icon {
+			position: absolute;
+		    bottom: 4.5%;
+		    margin: 0;
+		    padding: 0;
+		    width: 20%;
+		}
+}
 
 

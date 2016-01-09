@@ -149,3 +149,33 @@ section.quote {
       color: #FE6467; }
     section.quote .quote-inner span.country {
       color: #8C8C8C; }
+
+.blog-wrap .desk--one-third {
+  width: 30.33%; }
+
+.blog-wrap .blog {
+  padding: 0;
+  overflow: hidden;
+  margin: 1%; }
+
+.blog-wrap #first-pic,
+.blog-wrap #second-pic,
+.blog-wrap #third-pic {
+  position: relative;
+  height: 272px; }
+
+.blog-wrap #first-pic {
+  background: url("../assets/blog-01.jpg") no-repeat center; }
+
+.blog-wrap #second-pic {
+  background: url("../assets/blog-02.jpg") no-repeat center; }
+
+.blog-wrap #third-pic {
+  background: url("../assets/blog-03.jpg") no-repeat center; }
+
+.blog-wrap #icon {
+  position: absolute;
+  bottom: 4.5%;
+  margin: 0;
+  padding: 0;
+  width: 20%; }
