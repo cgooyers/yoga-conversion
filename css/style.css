@@ -125,3 +125,27 @@ section.trainers .pic-info {
     padding-bottom: 5%; }
   section.trainers .pic-info .underline {
     width: 10%; }
+
+section.quote {
+  background: url("../assets/testimonial-bg.jpg") no-repeat center;
+  margin: 0 auto; }
+  section.quote .quote-inner {
+    text-align: center;
+    padding: 12% 0; }
+    section.quote .quote-inner h1 {
+      text-transform: uppercase;
+      font-size: 300%;
+      font-weight: normal;
+      line-height: 30px; }
+    section.quote .quote-inner p,
+    section.quote .quote-inner span.country {
+      font-style: italic; }
+    section.quote .quote-inner span.name,
+    section.quote .quote-inner span.country {
+      font-weight: bold;
+      font-size: 85%;
+      display: block; }
+    section.quote .quote-inner span.name {
+      color: #FE6467; }
+    section.quote .quote-inner span.country {
+      color: #8C8C8C; }
