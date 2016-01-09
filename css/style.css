@@ -202,3 +202,14 @@ section.blog .blog-details {
       font-size: 95%; }
       section.blog .blog-details ul.services li i {
         color: black; }
+
+section.package {
+  background: #F4F4F4; }
+  section.package .choose-pkg {
+    color: #464646;
+    text-align: center;
+    padding: 4% 0; }
+    section.package .choose-pkg h1 {
+      font-weight: normal; }
+  section.package .desk--one-quarter {
+    width: 24%; }

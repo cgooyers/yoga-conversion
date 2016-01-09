@@ -4,6 +4,7 @@ $bg-light-grey: #F4F4F4;
 $med-grey: #F5F5F5;
 $light-grey: #8C8C8C;
 $drk-grey: #464646;
+$drkest-grey: #454545;
 $red: #FE6467;
 
 // SET UP STYLES
@@ -265,7 +266,7 @@ section.quote {
 		    width: 20%;
 		}
 }
-
+// end of .blog-wrap
 section.blog {
 
 	.blog-details {
@@ -300,3 +301,33 @@ section.blog {
 			}
 	}
 }
+// END OF BLOG STYLES
+
+// PACKAGE STYLES
+section.package {
+	background: $bg-light-grey;
+
+		.choose-pkg {
+			color: $drk-grey;
+			text-align: center;
+			padding: 4% 0;
+
+			h1 {
+				font-weight: normal;
+			}
+		}
+	.desk--one-quarter {
+		width: 24%;
+	}	
+
+}
+
+
+
+
+
+
+// END OF PACKAGE STYLES
+
+
+
