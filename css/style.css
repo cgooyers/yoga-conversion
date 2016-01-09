@@ -3,7 +3,7 @@ body {
   font-family: 'Lato', 'Helvetica', sans-serif;
   font-size: 12px;
   color: white;
-  line-height: 22px;
+  line-height: 16px;
   letter-spacing: 0.1rem; }
 
 a {
@@ -179,3 +179,26 @@ section.quote {
   margin: 0;
   padding: 0;
   width: 20%; }
+
+section.blog .blog-details {
+  width: 32.33%;
+  color: #8C8C8C;
+  padding: 1%; }
+  section.blog .blog-details h2 {
+    color: black;
+    font-weight: normal; }
+  section.blog .blog-details span.date {
+    font-style: italic;
+    font-size: 80%; }
+  section.blog .blog-details p {
+    padding: 4% 0; }
+  section.blog .blog-details ul.services {
+    margin: 0;
+    padding: 0; }
+    section.blog .blog-details ul.services li {
+      float: left;
+      list-style-type: none;
+      padding-right: 3%;
+      font-size: 95%; }
+      section.blog .blog-details ul.services li i {
+        color: black; }

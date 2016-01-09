@@ -12,7 +12,7 @@ body {
 	font-family: 'Lato', 'Helvetica', sans-serif;
 	font-size: 12px;
 	color: white;
-	line-height: 22px;
+	line-height: 16px;
     letter-spacing: 0.1rem;
 }
 
@@ -266,4 +266,37 @@ section.quote {
 		}
 }
 
+section.blog {
 
+	.blog-details {
+		width: 32.33%;
+		color: $light-grey;
+		padding: 1%;
+
+			h2 {
+				color: black;
+				font-weight: normal;
+			}
+			span.date {
+				font-style: italic;
+				font-size: 80%;
+			}
+			p {
+				padding: 4% 0;
+			}
+			ul.services {
+				margin: 0;
+				padding: 0;
+
+				li {
+					float: left;
+					list-style-type: none;
+					padding-right: 3%;
+					font-size: 95%;
+					i {
+						color: black;
+					} 
+				}
+			}
+	}
+}
