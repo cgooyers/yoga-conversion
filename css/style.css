@@ -283,3 +283,67 @@ section.sign-up {
     color: white;
     text-transform: uppercase;
     margin-top: 1%; }
+
+section.contact {
+  background: #2A2A2A;
+  color: #5F5F5F;
+  letter-spacing: 0.1rem; }
+  section.contact .desk--one-quarter {
+    width: 24%; }
+  section.contact .underline {
+    background: #F4F4F4;
+    margin: 0;
+    width: 10%;
+    margin-bottom: 10%; }
+  section.contact h1 {
+    text-transform: capitalize;
+    font-size: 90%;
+    letter-spacing: 0.1rem;
+    margin: 10% 0 4%;
+    color: white; }
+  section.contact li {
+    list-style-type: none;
+    padding: 5% 0; }
+  section.contact ul {
+    margin: 0;
+    padding: 0; }
+  section.contact input,
+  section.contact textarea {
+    border: 1.5px solid #F4F4F4;
+    margin: 3% 0;
+    background: transparent;
+    color: #F4F4F4;
+    letter-spacing: 0.05rem;
+    font-size: 70%; }
+  section.contact input {
+    padding: 3% 40% 3% 3%; }
+  section.contact textarea {
+    padding: 3% 36% 40% 3%; }
+
+.address img {
+  width: 80%; }
+
+.address i {
+  margin: 2% 5%;
+  float: left; }
+
+.address ul.address {
+  margin-bottom: 10%; }
+
+.twitter li i {
+  font-size: 150%; }
+
+.twitter span.handle {
+  color: #FE6467; }
+
+.link ul.link li {
+  list-style-type: disc;
+  border-bottom: 2px dotted;
+  text-transform: capitalize; }
+
+.form button.send {
+  background: #FE6467;
+  color: white;
+  border: none;
+  padding: 3% 15%;
+  letter-spacing: 0.05rem; }
