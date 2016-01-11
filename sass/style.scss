@@ -562,4 +562,22 @@ section.contact {
 		letter-spacing: 0.05rem;
 	}
 }
+// END OF FORM STYLES
+// END OF CONTACT STYLES
+
+// START OF FOOTER STYLES
+footer {
+	background: $blk-grey;
+	color: $contact-grey;
+	text-align: center;
+	padding: 2.5% 0;
+
+	a {
+		color: $contact-grey;
+		font-weight: normal;
+		text-decoration: none;
+	}
+}
+
+
 

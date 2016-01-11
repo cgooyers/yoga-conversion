@@ -347,3 +347,13 @@ section.contact {
   border: none;
   padding: 3% 15%;
   letter-spacing: 0.05rem; }
+
+footer {
+  background: #232323;
+  color: #5F5F5F;
+  text-align: center;
+  padding: 2.5% 0; }
+  footer a {
+    color: #5F5F5F;
+    font-weight: normal;
+    text-decoration: none; }
