@@ -579,5 +579,147 @@ footer {
 	}
 }
 
+// HAMBURGER NAV STYLES
+/*----- Toggle Button -----*/
+.toggle-nav {
+    display:none;
+}
+nav.menu {
+	text-align: right;
+	width: auto;
+} 
+/*----- Menu -----*/
+@media screen and (min-width: 860px) {
+    .menu {
+        width:100%;
+        padding:10px 18px;
+        border-radius:3px;
+		
+    }
+    nav.menu {
+    	text-align: left;
+    }
+}
+.menu ul {
+    display:inline-block;
+}
+ 
+.menu li {
+    margin:0px 50px 0px 0px;
+    float:left;
+    list-style:none;
+    font-size:14px;
+}
+ 
+.menu li:last-child {
+    margin-right:0px;
+}
+ 
+.menu a {
+    text-transform: uppercase;
+    transition:color linear 0.15s;
+    color: white;
+    font-weight: normal;
 
+    i {
+    	color: white;
+    }
+}
+ 
+.menu a:hover, .menu .current-item a {
+    text-decoration:none;
+    color:#66a992;
+}
+ 
+ 
+/*----- Responsive -----*/
+@media screen and (max-width: 1150px) {
+    .wrap {
+        width:90%;
+    }
+}
+ 
+@media screen and (max-width: 970px) {
+    .search-form input {
+        width:120px;
+    }
+}
+ 
+@media screen and (max-width: 860px) {
+	section.menu {
+		width: 100%;
+	}
+
+    .menu {
+        position:relative;
+        display:inline-block;
+    }
+ 
+    .menu ul.active {
+        display:none;
+        background: black;
+    }
+ 
+    .menu ul {
+        position:absolute;
+        top: 80%;
+        left: -10px;
+        padding:10px 18px;
+        border-radius:3px;
+    }
+ 
+    .menu ul:after {
+        width:0px;
+        height:0px;
+        position:absolute;
+        top:0%;
+        left:20px;
+        transform:translate(0%, -100%);
+        border-left:7px solid transparent;
+        border-right:7px solid transparent;
+        border-bottom:7px solid #303030;
+    }
+ 
+    .menu li {
+        margin:5px 0px 5px 0px;
+        display:block;
+        padding: 2% 0;
+    }
+ 
+    .menu a {
+        display:block;
+        color: $bg-grey;
+        font-weight: bold;
+    }
+ 
+    .toggle-nav {
+        padding:10px;
+        float:left;
+        display:inline-block;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        color:#777;
+        font-size:20px;
+        transition:color linear 0.15s;
+        margin: 50% 25% 0 25%;
+    }
+ 
+    .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+        border-bottom: 2px solid black;
+    }
+    img#yoga-girl {
+    	display: none;
+    }
+    section.intro {
+    	margin-top: 30%;
+    	height: 150px;
+    	.intro-info-wrap {
+    		padding-top: 0;
+    	}
+    }
+ 
+}
 

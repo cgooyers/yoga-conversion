@@ -6,17 +6,38 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/csswizardry-grids.css">
 	<link rel="stylesheet" href="css/style.css">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
 </head>
 <body>
 	<div class="site-wrap">
-
+		<header>
+	       <div id="hamburger">
+	           <div></div>
+	           <div></div>
+	           <div></div>
+	       </div>
+	   </header>
 		<section class="menu">
 			<div class="grid">
-				<div class="img-wrap grid__item lap--one-half desk--one-third">
+				<div class="img-wrap grid__item portable--one-whole desk--one-third">
 					<img src="assets/yogi-logo.png" alt="YOGI">
 				</div>
-				<div class="menu-inner grid__item lap--one-half desk--two-thirds">
+				<nav class="menu">
+				    <ul class="active">
+				        <li class="current-item"><a href="#">Home</a></li>
+				        <li><a href="#">About</a></li>
+				        <li><a href="#">Classes</a></li>
+				        <li><a href="#">Events</a></li>
+				        <li><a href="#">Pages</a></li>
+				        <li><a href="#">Blog</a></li>
+				    	<li><a href="#">Contact</a></li>
+				    </ul>
+				 
+				    <a class="toggle-nav" href="#"><i class="fa fa-bars"></i></a>
+			
+				</nav>
+				<!-- <div id="hamburger" class="menu-inner grid__item portable--one-whole desk--two-thirds">
 					<ul class="nav">
 						<li><a href="">home</a></li>
 						<li><a href="">about</a></li>
@@ -28,17 +49,17 @@
 						<li>|</li>
 						<li><a href=""><i class="fa fa-shopping-cart"></i></a></li>
 					</ul><!-- end of nav -->
-
-				</div><!-- end of menu-inner -->
+	
+				<!-- </div>end of menu-inner --> 
 			</div><!-- end of grid -->
 		</section><!-- end of menu -->
 
 		<section class="intro">
 			<div class="grid">
-				<div class="grid__item lap--one-half desk--one-third">
+				<div class="grid__item portable--one-half desk--one-third palm--one-whole">
 					<img id="yoga-girl" src="assets/header-yogagirl2.png">
 				</div>
-				<div class="grid__item lap--one-half desk--two-thirds intro-info">
+				<div class="grid__item portable--one-whole desk--two-thirds intro-info yoga-girl">
 					<div class="intro-info-wrap">
 						<span>rest & relax</span>
 						<h1>yoga class</h1>
@@ -381,5 +402,15 @@
 		</footer>
 
 	</div><!-- end of site-wrap -->
+	<script>
+		jQuery(document).ready(function() {
+		    jQuery('.toggle-nav').click(function(e) {
+		        jQuery(this).toggleClass('active');
+		        jQuery('.menu ul').toggleClass('active');
+		 
+		        e.preventDefault();
+		    });
+		});
+	</script>
 </body>
 </html>
