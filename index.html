@@ -11,7 +11,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
 </head>
 <body>
-	<div class="site-wrap">
+	<div id="menu" class="site-wrap">
 		<header>
 	       <div id="hamburger">
 	           <div></div>
@@ -19,20 +19,20 @@
 	           <div></div>
 	       </div>
 	   </header>
-		<section id="menu" class="menu">
+		<section  class="menu">
 			<div class="grid">
 				<div class="img-wrap grid__item portable--one-whole desk--one-third">
 					<img id="logo" src="assets/yogi-logo.png" alt="YOGI">
 				</div>
 				<nav class="menu">
 				    <ul class="active">
-				        <li class="current-item"><a href="#">Home</a></li>
-				        <li><a href="#">About</a></li>
-				        <li><a href="#">Classes</a></li>
-				        <li><a href="#">Events</a></li>
-				        <li><a href="#">Pages</a></li>
-				        <li><a href="#">Blog</a></li>
-				    	<li><a href="#">Contact</a></li>
+				        <li class="current-item"><a href="#menu">Home</a></li>
+				        <li><a href="#about">About</a></li>
+				        <li><a href="#classes">Classes</a></li>
+				        <li><a href="#events">Events</a></li>
+				        <li><a href="#pages">Pages</a></li>
+				        <li><a href="#blog">Blog</a></li>
+				    	<li><a href="#contact">Contact</a></li>
 				    </ul>
 				 
 				    <a class="toggle-nav" href="#"><i class="fa fa-bars"></i></a>
@@ -41,7 +41,7 @@
 			</div><!-- end of grid -->
 		</section><!-- end of menu -->
 
-		<section class="intro">
+		<section id="about" class="intro">
 			<div class="grid">
 				<div class="grid__item portable--one-half desk--one-third portable--one-whole">
 					<img id="yoga-girl" src="assets/header-yogagirl2.png">
@@ -56,7 +56,7 @@
 			</div><!-- end of grid -->
 		</section><!-- end of intro -->
 
-		<section class="services clearfix">
+		<section id="classes" class="services clearfix">
 			<div class="services-inner grid">
 
 				<div class="grid__item portable--one-whole desk--one-third balance">
@@ -93,7 +93,7 @@
 			</div><!-- end of services-inner -->
 		</section><!-- end of services -->
 
-		<section class="trainers">
+		<section id="events" class="trainers">
 			<div class="grid">
 				<div class="sec-title grid__item desk--one-whole">
 					<img src="assets/yogi-logo-black.png" alt="Yogi Logo">
@@ -150,7 +150,7 @@
 			</div><!-- end of grid -->
 		</section><!-- end of trainers -->
 
-		<section class="quote">
+		<section id="pages" class="quote">
 			<div class="quote-inner">
 				
 				<h1>i love yogi</h1>
@@ -162,7 +162,7 @@
 			</div>
 		</section><!-- end of quote -->
 
-		<section class="blog">
+		<section id="blog" class="blog">
 			<div class="grid">
 				<div class="sec-title">
 					<img src="assets/yogi-logo-black.png" alt="Yogi Logo">
@@ -324,7 +324,7 @@
 			</div>
 		</section><!-- end of sign-up -->
 
-		<section class="contact">
+		<section id="contact" class="contact">
 			<div class="grid">
 
 				<div class="grid__item desk--one-quarter address">
